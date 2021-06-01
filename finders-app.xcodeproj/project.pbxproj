@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30738BEB2666168000399ED9 /* finders_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30738BEA2666168000399ED9 /* finders_appApp.swift */; };
+		30738BED2666168000399ED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30738BEC2666168000399ED9 /* ContentView.swift */; };
+		30738BEF2666168200399ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30738BEE2666168200399ED9 /* Assets.xcassets */; };
+		30738BF22666168200399ED9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30738BF12666168200399ED9 /* Preview Assets.xcassets */; };
+		30738BF72666168200399ED9 /* finders-app WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 30738BF62666168200399ED9 /* finders-app WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30738BFC2666168300399ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30738BFB2666168300399ED9 /* Assets.xcassets */; };
+		30738C032666168300399ED9 /* finders-app WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 30738C022666168300399ED9 /* finders-app WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30738C082666168300399ED9 /* finders_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30738C072666168300399ED9 /* finders_appApp.swift */; };
+		30738C0A2666168300399ED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30738C092666168300399ED9 /* ContentView.swift */; };
+		30738C0C2666168300399ED9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30738C0B2666168300399ED9 /* NotificationController.swift */; };
+		30738C0E2666168300399ED9 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30738C0D2666168300399ED9 /* NotificationView.swift */; };
+		30738C102666168300399ED9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30738C0F2666168300399ED9 /* ComplicationController.swift */; };
+		30738C122666168400399ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30738C112666168400399ED9 /* Assets.xcassets */; };
+		30738C152666168400399ED9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30738C142666168400399ED9 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30738BF82666168200399ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30738BDF2666168000399ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30738BF52666168200399ED9;
+			remoteInfo = "finders-app WatchKit App";
+		};
+		30738C042666168300399ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30738BDF2666168000399ED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30738C012666168300399ED9;
+			remoteInfo = "finders-app WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30738C1D2666168400399ED9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				30738C032666168300399ED9 /* finders-app WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30738C212666168400399ED9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				30738BF72666168200399ED9 /* finders-app WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30738BE72666168000399ED9 /* finders-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "finders-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30738BEA2666168000399ED9 /* finders_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finders_appApp.swift; sourceTree = "<group>"; };
+		30738BEC2666168000399ED9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30738BEE2666168200399ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30738BF12666168200399ED9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30738BF32666168200399ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30738BF62666168200399ED9 /* finders-app WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "finders-app WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30738BFB2666168300399ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30738BFD2666168300399ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30738C022666168300399ED9 /* finders-app WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "finders-app WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30738C072666168300399ED9 /* finders_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finders_appApp.swift; sourceTree = "<group>"; };
+		30738C092666168300399ED9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30738C0B2666168300399ED9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		30738C0D2666168300399ED9 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		30738C0F2666168300399ED9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		30738C112666168400399ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30738C142666168400399ED9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30738C162666168400399ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30738C172666168400399ED9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30738BE42666168000399ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30738BFF2666168300399ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30738BDE2666168000399ED9 = {
+			isa = PBXGroup;
+			children = (
+				30738BE92666168000399ED9 /* finders-app */,
+				30738BFA2666168200399ED9 /* finders-app WatchKit App */,
+				30738C062666168300399ED9 /* finders-app WatchKit Extension */,
+				30738BE82666168000399ED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30738BE82666168000399ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30738BE72666168000399ED9 /* finders-app.app */,
+				30738BF62666168200399ED9 /* finders-app WatchKit App.app */,
+				30738C022666168300399ED9 /* finders-app WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30738BE92666168000399ED9 /* finders-app */ = {
+			isa = PBXGroup;
+			children = (
+				30738BEA2666168000399ED9 /* finders_appApp.swift */,
+				30738BEC2666168000399ED9 /* ContentView.swift */,
+				30738BEE2666168200399ED9 /* Assets.xcassets */,
+				30738BF32666168200399ED9 /* Info.plist */,
+				30738BF02666168200399ED9 /* Preview Content */,
+			);
+			path = "finders-app";
+			sourceTree = "<group>";
+		};
+		30738BF02666168200399ED9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30738BF12666168200399ED9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30738BFA2666168200399ED9 /* finders-app WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				30738BFB2666168300399ED9 /* Assets.xcassets */,
+				30738BFD2666168300399ED9 /* Info.plist */,
+			);
+			path = "finders-app WatchKit App";
+			sourceTree = "<group>";
+		};
+		30738C062666168300399ED9 /* finders-app WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				30738C072666168300399ED9 /* finders_appApp.swift */,
+				30738C092666168300399ED9 /* ContentView.swift */,
+				30738C0B2666168300399ED9 /* NotificationController.swift */,
+				30738C0D2666168300399ED9 /* NotificationView.swift */,
+				30738C0F2666168300399ED9 /* ComplicationController.swift */,
+				30738C112666168400399ED9 /* Assets.xcassets */,
+				30738C162666168400399ED9 /* Info.plist */,
+				30738C172666168400399ED9 /* PushNotificationPayload.apns */,
+				30738C132666168400399ED9 /* Preview Content */,
+			);
+			path = "finders-app WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		30738C132666168400399ED9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30738C142666168400399ED9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30738BE62666168000399ED9 /* finders-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30738C222666168400399ED9 /* Build configuration list for PBXNativeTarget "finders-app" */;
+			buildPhases = (
+				30738BE32666168000399ED9 /* Sources */,
+				30738BE42666168000399ED9 /* Frameworks */,
+				30738BE52666168000399ED9 /* Resources */,
+				30738C212666168400399ED9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30738BF92666168200399ED9 /* PBXTargetDependency */,
+			);
+			name = "finders-app";
+			productName = "finders-app";
+			productReference = 30738BE72666168000399ED9 /* finders-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30738BF52666168200399ED9 /* finders-app WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30738C1E2666168400399ED9 /* Build configuration list for PBXNativeTarget "finders-app WatchKit App" */;
+			buildPhases = (
+				30738BF42666168200399ED9 /* Resources */,
+				30738C1D2666168400399ED9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30738C052666168300399ED9 /* PBXTargetDependency */,
+			);
+			name = "finders-app WatchKit App";
+			productName = "finders-app WatchKit App";
+			productReference = 30738BF62666168200399ED9 /* finders-app WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		30738C012666168300399ED9 /* finders-app WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30738C1A2666168400399ED9 /* Build configuration list for PBXNativeTarget "finders-app WatchKit Extension" */;
+			buildPhases = (
+				30738BFE2666168300399ED9 /* Sources */,
+				30738BFF2666168300399ED9 /* Frameworks */,
+				30738C002666168300399ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "finders-app WatchKit Extension";
+			productName = "finders-app WatchKit Extension";
+			productReference = 30738C022666168300399ED9 /* finders-app WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30738BDF2666168000399ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					30738BE62666168000399ED9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					30738BF52666168200399ED9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					30738C012666168300399ED9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 30738BE22666168000399ED9 /* Build configuration list for PBXProject "finders-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30738BDE2666168000399ED9;
+			productRefGroup = 30738BE82666168000399ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30738BE62666168000399ED9 /* finders-app */,
+				30738BF52666168200399ED9 /* finders-app WatchKit App */,
+				30738C012666168300399ED9 /* finders-app WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30738BE52666168000399ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30738BF22666168200399ED9 /* Preview Assets.xcassets in Resources */,
+				30738BEF2666168200399ED9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30738BF42666168200399ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30738BFC2666168300399ED9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30738C002666168300399ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30738C152666168400399ED9 /* Preview Assets.xcassets in Resources */,
+				30738C122666168400399ED9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30738BE32666168000399ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30738BED2666168000399ED9 /* ContentView.swift in Sources */,
+				30738BEB2666168000399ED9 /* finders_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30738BFE2666168300399ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30738C0C2666168300399ED9 /* NotificationController.swift in Sources */,
+				30738C0A2666168300399ED9 /* ContentView.swift in Sources */,
+				30738C102666168300399ED9 /* ComplicationController.swift in Sources */,
+				30738C082666168300399ED9 /* finders_appApp.swift in Sources */,
+				30738C0E2666168300399ED9 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30738BF92666168200399ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30738BF52666168200399ED9 /* finders-app WatchKit App */;
+			targetProxy = 30738BF82666168200399ED9 /* PBXContainerItemProxy */;
+		};
+		30738C052666168300399ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30738C012666168300399ED9 /* finders-app WatchKit Extension */;
+			targetProxy = 30738C042666168300399ED9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30738C182666168400399ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30738C192666168400399ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		30738C1B2666168400399ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"finders-app WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "finders-app WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "design-by-deuce.finders-app.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		30738C1C2666168400399ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"finders-app WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "finders-app WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "design-by-deuce.finders-app.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		30738C1F2666168400399ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = finders_app_WatchKit_Extension;
+				INFOPLIST_FILE = "finders-app WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "design-by-deuce.finders-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		30738C202666168400399ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = finders_app_WatchKit_Extension;
+				INFOPLIST_FILE = "finders-app WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "design-by-deuce.finders-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		30738C232666168400399ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"finders-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "finders-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "design-by-deuce.finders-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30738C242666168400399ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"finders-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "finders-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "design-by-deuce.finders-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30738BE22666168000399ED9 /* Build configuration list for PBXProject "finders-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30738C182666168400399ED9 /* Debug */,
+				30738C192666168400399ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30738C1A2666168400399ED9 /* Build configuration list for PBXNativeTarget "finders-app WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30738C1B2666168400399ED9 /* Debug */,
+				30738C1C2666168400399ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30738C1E2666168400399ED9 /* Build configuration list for PBXNativeTarget "finders-app WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30738C1F2666168400399ED9 /* Debug */,
+				30738C202666168400399ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30738C222666168400399ED9 /* Build configuration list for PBXNativeTarget "finders-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30738C232666168400399ED9 /* Debug */,
+				30738C242666168400399ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30738BDF2666168000399ED9 /* Project object */;
+}
